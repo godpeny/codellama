@@ -27,24 +27,18 @@ def main(
     instructions = [
         [
             {
-                "role": "user",
-                "content": "In Bash, how do I list all text files in the current directory (excluding subdirectories) that have been modified in the last month?",
-            }
-        ],
-        [
-            {
-                "role": "user",
-                "content": "What is the difference between inorder and preorder traversal? Give an example in Python.",
-            }
-        ],
-        [
-            {
                 "role": "system",
                 "content": "Provide answers in JavaScript",
             },
             {
                 "role": "user",
                 "content": "Write a function that computes the set of sums of all contiguous sublists of a given list.",
+            }
+        ],
+        [
+            {
+                "role": "user",
+                "content": "also provide a test case",
             }
         ],
     ]
